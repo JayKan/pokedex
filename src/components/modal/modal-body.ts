@@ -9,4 +9,6 @@ import { Component, ViewEncapsulation } from '@angular/core';
   </div>
   `
 })
-export class ModalBodyComponent {}
+export class ModalBodyComponent {
+
+}
