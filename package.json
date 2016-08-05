@@ -19,7 +19,8 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=5.11"
+    "node": ">=5.11",
+    "npm": ">3.x"
   },
   "devDependencies": {
     "@angular/common": "2.0.0-rc.4",
