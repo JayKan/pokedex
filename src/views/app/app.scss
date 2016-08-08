@@ -1,0 +1,106 @@
+app {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  overflow: auto;
+  background: -webkit-linear-gradient(#ece6ff, #d3c5ff);
+  background: -o-linear-gradient(#ece6ff, #d3c5ff);
+  background: -moz-linear-gradient(#ece6ff, #d3c5ff);
+  background: linear-gradient(#ece6ff, #d3c5ff);
+
+  .center {
+    text-align: center;
+    > span {
+      color: #383838;
+      font-size: 12px;
+      font-weight: 300;
+    }
+  }
+
+  .check-box-label {
+    display: block;
+    min-height: 20px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 12px;
+    cursor: pointer;
+    color: #383838;
+
+    > input[type="checkbox"] {
+      margin-right: 5px;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #a07dc0;
+    border-bottom: 1px solid #c4b8d1;
+    padding: 10px;
+    margin: 0 !important;
+  }
+
+
+  .container {
+    margin: 10px auto;
+    text-align: center;
+    max-width: 450px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .block {
+    width: 0;
+    height: 2px;
+    display: block;
+  }
+
+  .text-center {
+    margin: 10px auto;
+  }
+
+  .inner {
+    display: inline-block;
+    height: 54px;
+    width: 54px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 52px;
+    font-weight: 100;
+    color: #eee;
+    margin: 2px;
+    background: -webkit-linear-gradient(#c3b2f7, #ad95f5);
+    background: -o-linear-gradient(#c3b2f7, #ad95f5);
+    background: -moz-linear-gradient(#c3b2f7, #ad95f5);
+    background: linear-gradient(#c3b2f7, #ad95f5);
+    cursor: pointer;
+
+    img {
+      max-width: 40px;
+      vertical-align: middle;
+    }
+  }
+
+  .checkbox {
+    text-align: center;
+  }
+
+  .checkbox span {
+    font-size: 10px;
+  }
+}
+
+.margin-top-5 {
+  margin-top: 5px;
+}
+.margin-top-10 {
+  margin-top: 10px;
+}
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
