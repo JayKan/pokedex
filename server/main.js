@@ -10,7 +10,7 @@ const PROJECT_ROOT_DIR = process.cwd();
 const app = express();
 
 app.set('host', process.env.HOST || 'localhost');
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 4000);
 
 app.use(require('morgan')('dev'));
 app.use(express.static(`${PROJECT_ROOT_DIR}/target`));

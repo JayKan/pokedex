@@ -1,22 +1,7 @@
-import { ElementRef, Injectable } from '@angular/core';
+import { ElementRef } from '@angular/core';
 import { booleanOrValue, toPromise } from './modal.utils';
 import { Observable } from 'rxjs/Observable';
 declare var jQuery: any;
-
-export enum ModalResult {
-  None,
-  Close,
-  Dismiss
-}
-
-export class ModalSize {
-  static Small = 'sm';
-  static Large = 'lg';
-
-  static validSize(size: string): boolean {
-    return size && (size === ModalSize.Small || size === ModalSize.Large);
-  }
-}
 
 export class ModalInstance {
 
@@ -28,7 +13,6 @@ export class ModalInstance {
   shown: Observable<any>;
   hidden: Observable<ModalResult>;
   result: ModalResult;
-
   visible: boolean = false;
 
   constructor(private _element: ElementRef) {
@@ -101,5 +85,20 @@ export class ModalInstance {
     this._$modal.removeData();
     this._$modal.data('backdrop', booleanOrValue(this._$modal.attr('data-backdrop')));
     this._$modal.data('keyboard', booleanOrValue(this._$modal.attr('data-keyboard')));
+  }
+}
+
+export enum ModalResult {
+  None,
+  Close,
+  Dismiss
+}
+
+export class ModalSize {
+  static Small = 'sm';
+  static Large = 'lg';
+
+  static validSize(size: string): boolean {
+    return size && (size === ModalSize.Small || size === ModalSize.Large);
   }
 }
