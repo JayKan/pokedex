@@ -9,6 +9,7 @@ export * from './modal-header';
 export * from './modal-body';
 export * from './modal-footer';
 export * from './autofocus.directive';
+export * from './modal-instance';
 
 export const MODAL_DIRECTIVES = [
   ModalComponent,
