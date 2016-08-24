@@ -12,5 +12,8 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/observable/of';
 import 'rxjs/add/observable/fromEvent';
 
+import 'hammerjs';
+import 'ng2-swipeable-card';
+
 
 

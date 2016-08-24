@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
+import { SwipeableCardModule } from 'ng2-swipeable-card';
 
 import { AppComponent } from './app';
 import { MODAL_DIRECTIVES } from '../../components/modal';
@@ -22,7 +23,8 @@ export class SharedModule {}
     FormsModule,
     RouterModule,
     HttpModule,
-    SharedModule
+    SharedModule,
+    SwipeableCardModule
   ],
   // declarations tells angular that `App` belongs to `AppModule`
   declarations: [

@@ -58,5 +58,8 @@
     "webpack-md5-hash": "~0.0.5",
     "winston": "~2.2.0",
     "zone.js": "~0.6.12"
+  },
+  "dependencies": {
+    "ng2-swipeable-card": "^1.0.3-6"
   }
 }
