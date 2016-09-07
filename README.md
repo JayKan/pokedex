@@ -1,4 +1,8 @@
 # Pokémon GO Pokédex
+[![Angular 2 Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://github.com/mgechev/angular2-style-guide)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+[![Dependency Status](https://david-dm.org/JayKan/pokedex/status.svg)](https://david-dm.org/JayKan/pokedex)
+[![devDependency Status](https://david-dm.org/JayKan/pokedex/dev-status.svg)](https://david-dm.org/JayKan/pokedex?type=dev)
 
 > A simple Pokédex view layer built with **Angular2** and **Webpack** with deployment on Firebase. To view the live demo, please visit <a href="https://pokedex-fun.firebaseapp.com/" target="_blank">https://pokedex-fun.firebaseapp.com.
 
@@ -14,4 +18,4 @@
 - open browser to [`http://localhost:3000`](http://localhost:3000)
 
 # License
-[MIT](LICENSE)
+MIT © [Jay Kan](https://github.com/JayKan)
