@@ -22,18 +22,22 @@
     "node": ">=5.11",
     "npm": ">3.x"
   },
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "core-js": "^2.4.1",
+    "zone.js": "0.6.21",
+    "rxjs": "5.0.0-beta.12"
+  },
   "devDependencies": {
-    "@angular/common": "2.0.0-rc.6",
-    "@angular/compiler": "2.0.0-rc.6",
-    "@angular/core": "2.0.0-rc.6",
-    "@angular/forms": "2.0.0-rc.6",
-    "@angular/http": "2.0.0-rc.6",
-    "@angular/platform-browser": "2.0.0-rc.6",
-    "@angular/platform-browser-dynamic": "2.0.0-rc.6",
-    "@angular/router": "3.0.0-rc.2",
     "autoprefixer": "~6.3.6",
     "copy-webpack-plugin": "^3.0.1",
-    "core-js": "~2.4.0",
     "cross-env": "~2.0.0",
     "css-loader": "~0.23.1",
     "del-cli": "^0.2.0",
@@ -47,7 +51,6 @@
     "nodemon": "~1.9.2",
     "postcss-loader": "~0.9.1",
     "raw-loader": "~0.5.1",
-    "rxjs": "5.0.0-beta.11",
     "sass-loader": "~4.0.0",
     "style-loader": "~0.13.1",
     "ts-loader": "~0.8.2",
@@ -56,7 +59,6 @@
     "webpack": "~1.13.1",
     "webpack-dev-server": "~1.14.1",
     "webpack-md5-hash": "~0.0.5",
-    "winston": "~2.2.0",
-    "zone.js": "^0.6.17"
+    "winston": "~2.2.0"
   }
 }
