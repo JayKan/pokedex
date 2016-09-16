@@ -162,13 +162,15 @@ if (ENV_PRODUCTION) {
     new ExtractTextPlugin('styles.[contenthash].css'),
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.UglifyJsPlugin({
+      beautify: false,
       mangle: true,
       compress: {
         dead_code: true,
         screw_ie8: true,
         unused: true,
         warnings: false
-      }
+      },
+      comments: false
     })
   );
 }
